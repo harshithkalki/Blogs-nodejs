@@ -8,7 +8,7 @@ const urlencoded = require("body-parser/lib/types/urlencoded");
 const { redirect } = require("express/lib/response");
 
 //server listener...
-const dburi='mongodb+srv://kalki:kalki1234@harshith.o1l6aog.mongodb.net/mongokk?retryWrites=true&w=majority'
+const dburi='mongodb://localhost:27017/blogs'
 mongoose.connect(dburi)
 .then((result)=>{app.listen(3000);
     console.log("connected to the server!!")
