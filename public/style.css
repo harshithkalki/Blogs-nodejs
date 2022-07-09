@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+}
+.icon{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    border-top: 1rem;
+    border-right: 10px;
+    padding-left: 10px;
+}
+a.headline{
+    border-top: 1rem;
+    border-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list{
+    border-left: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    /* background-color: black; */
+    min-width: 30vw;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    padding-right: 40px;
+}
+main{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+footer{
+    margin-top: 30px;
+    padding-left:50px
+}
+.createnew{
+    background-color: rgb(203, 196, 196);
+    min-width: 70%;
+    max-width: 70%;
+    margin-left: 12%;
+    padding-bottom: 5rem;
+    min-height: auto;
+}
+.in{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+input{
+    border:2px solid black;
+    height: 1.8rem;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+}
+.txt{
+    margin-left: 10rem;
+}
+textarea{
+    border: 2px solid black;
+    /* size-adjust: ; */
+    height: 10rem;
+    width: 30rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+label{
+    font-weight: 600;
+}
+.txt button{
+    height: 2.3rem;
+    width: 10rem;
+    border-radius: 0;
+    border: 2px solid black;
+    font-weight: 500;
+    background-color: white;
+}
+.blogdata h1{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding-top: 1.5rem;
+}
+.blogdata p{
+    margin-left: 5rem;
+}
+.aboutus h2 ,p{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    /* padding-top: 1.5rem; */
+}
+.aboutus h2{
+    padding-top: 1.5rem;
+}
+.content{
+    margin-top: 5rem;
+    background-color:rgb(203, 196, 196) ;
+    min-width: 70%;
+    max-width: 70%;
+    margin-left: 12%;
+    padding-bottom: 5rem;
+    min-height: auto;
+}
+.delete{
+    cursor: pointer;
+    padding: 0.8rem;
+    border: 1px solid black;
+    margin-top: 10%;
+}
+.delete:hover{
+    color: red;
+}
